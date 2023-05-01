@@ -12,6 +12,6 @@ export function init(keys) {
     }
     out += '<div class="key" data="' + keys[i] + '" >' + keys[i] + '</div>';
   }
-  out += '<div class="key" data="arrowup">↑</div><div class="key rightshift" data="Shift">Shift</div><div class="key">Fn</div><div class="key" data="control">Ctrl</div><div class="key" data="alt">Opt</div><div class="key command" data="meta">Command</div><div class="key space" data=" ">Space</div><div class="key command">Command</div><div class="key">Opt</div><div class="key" data="arrowleft">←</div><div class="key" data="arrowdown">↓</div><div class="key" data="arrowright">→</div>';
+  out += '<div class="key" data="arrowup">↑</div><div class="key rightshift" data="Shift">Shift</div><div class="key" data="fn">Fn</div><div class="key" data="control">Ctrl</div><div class="key" data="alt">Opt</div><div class="key command" data="meta">Command</div><div class="key space" data=" ">Space</div><div class="key command">Command</div><div class="key">Opt</div><div class="key" data="arrowleft">←</div><div class="key" data="arrowdown">↓</div><div class="key" data="arrowright">→</div>';
   document.querySelector('.keyboard__container').innerHTML = out;
 }
